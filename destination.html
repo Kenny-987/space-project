@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body>
+    <div class="destination-container">
+      <!--section for navigation-->
+
+      <section class="nav">
+        <div class="star">
+          <img src="./assets/shared/logo.svg" alt="" />
+        </div>
+        <div class="line"></div>
+        <div class="navigation">
+          <ul class="links">
+            <li><a href="index.html">00 home</a></li>
+            <li>
+              <a href="destination.html">01 destination</a>
+            </li>
+            <li><a href="crew.html">02 crew</a></li>
+            <li><a href="#">03 technology</a></li>
+          </ul>
+        </div>
+      </section>
+      <!--section for navigation-->
+      <!--heading-->
+      <div class="destHeading">
+        <p><span class="num">01</span> Pick your destination</p>
+      </div>
+      <!--planet img-->
+      <div class="everything">
+        <div class="img-div">
+          <img id="img" src="./assets/destination/image-moon.png" alt="" />
+        </div>
+        <!--planet img-->
+        <!--content-->
+        <div class="content">
+          <div class="places">
+            <ul class="place">
+              <li id="list">
+                <p id="place">Moon</p>
+                <div class="active-line"></div>
+              </li>
+
+              <li id="list"><p id="place">Mars</p></li>
+              <li id="list"><p id="place">Europa</p></li>
+              <li id="list"><p id="place">Titan</p></li>
+            </ul>
+          </div>
+          <div class="place-name">
+            <p id="place-name">Moon</p>
+          </div>
+          <div class="place-info">
+            <p id="place-info">
+              See our planet as you’ve never seen it before. A perfect relaxing
+              trip away to help regain perspective and come back refreshed.
+              While you’re there, take in some history by visiting the Luna 2
+              and Apollo 11 landing sites.
+            </p>
+          </div>
+          <div class="underline"></div>
+
+          <div class="values">
+            <div class="distance">
+              <p>AVG. DISTANCE</p>
+              <p id="dist">384,400 km</p>
+            </div>
+            <div class="time">
+              <p>Est. travel time</p>
+              <p id="time">3 days</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--content-->
+    </div>
+    <!--javascript-->
+    <script src="./js-files/destination.js"></script>
+  </body>
+</html>

@@ -1,0 +1,281 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: url('./assets/home/background-home-desktop.jpg') center/cover
+    no-repeat;
+  position: absolute;
+}
+
+.nav {
+  width: 94%;
+  border: 2px solid white;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 96px;
+}
+.clear {
+  clear: both;
+}
+.line {
+  width: 35%;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  height: 1px;
+  z-index: 10;
+  position: relative;
+  left: 50px;
+}
+.navigation {
+  width: 60%;
+  height: 100%;
+  color: white;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+}
+.links {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.links li {
+  margin-top: 34px;
+  display: inline-block;
+  align-items: center;
+}
+.links li a {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  font-family: Barlow Condensed;
+}
+/* info css */
+.info-btn {
+  width: 75%;
+  margin: auto;
+  position: relative;
+  top: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+.info {
+  width: auto;
+  max-width: 500px;
+  color: white;
+}
+.heading {
+  font-family: Barlow Condensed;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  color: #d0d6f9;
+}
+.info h1 {
+  font-family: Bellefair;
+  font-size: 130px;
+  line-height: 172px;
+  color: #ffffff;
+}
+.para {
+  font-family: Barlow;
+  font-size: 18px;
+  line-height: 32px;
+  color: #d0d6f9;
+}
+.explore-btn {
+  height: 400px;
+  width: 400px;
+}
+.circle {
+  position: relative;
+  top: 80px;
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  border-radius: 50%;
+  background: #ffffff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.circle a {
+  height: 37px;
+  font-family: Bellefair;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: 2px;
+  color: #0b0d17;
+  text-decoration: none;
+}
+
+/* destinations css */
+.destination-container {
+  width: 100vw;
+  height: 100vh;
+  background: url('./assets/destination/background-destination-desktop.jpg')
+    center/cover no-repeat;
+  position: absolute;
+  overflow-x: hidden;
+}
+.destHeading {
+  position: relative;
+  top: 140px;
+  margin-left: 10%;
+  width: 50%;
+  height: 34px;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+}
+.destHeading p {
+  font-family: Barlow Condensed;
+  font-size: 26px;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+.num {
+  font-family: Barlow Condensed;
+  letter-spacing: 4.725px;
+  margin-right: 10px;
+  color: #ffffff;
+  opacity: 0.25;
+}
+.everything {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  top: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.img-div {
+  width: 445px;
+  height: 445px;
+  margin-left: 12%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 40%;
+  min-height: 472px;
+  height: auto;
+  float: right;
+}
+
+.places ul {
+  display: flex;
+  justify-content: space-around;
+}
+.places li {
+  display: inline-block;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #d0d6f9;
+  text-transform: capitalize;
+  align-items: center;
+  cursor: pointer;
+}
+.active-line {
+  margin-top: 8px;
+  width: 100%;
+  height: 3px;
+  background: #ffffff;
+}
+.place-name p {
+  font-family: Bellefair;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.place-info {
+  margin-top: 10px;
+  font-family: Barlow;
+  font-size: 18px;
+  line-height: 32px;
+  color: #d0d6f9;
+  margin-left: 40px;
+}
+.underline {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 1px;
+  background: #383b4b;
+}
+.values {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.distance p,
+.time p {
+  font-family: Barlow Condensed;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 2.3625px;
+  text-transform: uppercase;
+  color: #d0d6f9;
+  margin-bottom: 10px;
+}
+#dist,
+#time {
+  font-family: Bellefair;
+  font-size: 28px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.time {
+  margin-top: 2px;
+  width: auto;
+}
+
+/* media queries standard laptop size */
+@media screen and (max-width: 1518px) {
+  .nav {
+    height: 54px;
+  }
+  .links li {
+    margin-top: 10px;
+  }
+  .info-btn {
+    width: 80%;
+
+    position: relative;
+    top: 180px;
+  }
+  .everything {
+    top: 160px;
+  }
+  .destHeading {
+    top: 70px;
+    width: 50%;
+  }
+  .place-name p {
+    margin-left: 25px;
+  }
+  .place-info {
+    margin-left: 25px;
+  }
+}

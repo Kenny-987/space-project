@@ -1,0 +1,163 @@
+/* css for crew  & technology */
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.crew-container {
+  width: 100vw;
+  height: 100vh;
+  background: url('./assets/crew/background-crew-desktop.jpg') center/cover
+    no-repeat;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.nav {
+  width: 96%;
+  border: 2px solid white;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 96px;
+}
+.clear {
+  clear: both;
+}
+.line {
+  width: 35%;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  height: 1px;
+  z-index: 10;
+  position: relative;
+  left: 50px;
+}
+.navigation {
+  width: 60%;
+  height: 100%;
+  color: white;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+}
+.links {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.links li {
+  margin-top: 34px;
+  display: inline-block;
+  align-items: center;
+}
+.links li a {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  font-family: Barlow Condensed;
+}
+.heading {
+  color: #ffffff;
+  width: 400px;
+  margin-top: 200px;
+  margin-left: 11%;
+  font-size: 28px;
+  font-family: Barlow Condensed;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+}
+.heading span {
+  opacity: 0.25;
+}
+.crew-info {
+  color: #ffffff;
+  width: 520px;
+  height: 335px;
+  margin-top: 150px;
+  margin-left: 11%;
+}
+.title {
+  font-family: Bellefair;
+  font-size: 32px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+.name {
+  font-family: Bellefair;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.info {
+  font-family: Barlow;
+  font-size: 18px;
+  line-height: 32px;
+  color: #d0d6f9;
+  margin-top: 20px;
+  width: 85%;
+}
+.img {
+  position: relative;
+  top: -450px;
+  right: 100px;
+
+  width: 40%;
+  float: right;
+}
+.slider {
+  margin-top: 100px;
+  width: 8%;
+  height: 17px;
+  margin-left: 11%;
+  display: flex;
+  justify-content: space-between;
+}
+.circle {
+  border: 2px solid white;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #ffffff;
+  opacity: 0.17;
+}
+.active {
+  opacity: 1;
+}
+@media screen and (max-width: 1518px) {
+  .nav {
+    height: 54px;
+  }
+  .links li {
+    margin-top: 10px;
+  }
+  .crew-info {
+    width: 600px;
+    height: 335px;
+    margin-top: 80px;
+    margin-left: 6%;
+  }
+  .heading {
+    margin-top: 70px;
+  }
+  .slider {
+    margin-top: 80px;
+  }
+  .img {
+    position: relative;
+    top: -470px;
+    right: 100px;
+  }
+}
